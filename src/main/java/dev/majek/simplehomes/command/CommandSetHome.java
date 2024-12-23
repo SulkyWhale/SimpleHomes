@@ -1,20 +1,20 @@
 package dev.majek.simplehomes.command;
 
+import java.util.Collections;
+import java.util.List;
+
+import org.bukkit.World;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
 import dev.majek.simplehomes.SimpleHomes;
 import dev.majek.simplehomes.api.HomeSetEvent;
 import dev.majek.simplehomes.data.struct.Home;
 import dev.majek.simplehomes.data.struct.HomesPlayer;
 import dev.majek.simplehomes.util.TabExecutor;
-import org.bukkit.World;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
-
-import java.util.Collections;
-import java.util.List;
 
 /**
  * Handles setting a new home
